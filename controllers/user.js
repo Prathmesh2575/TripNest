@@ -22,7 +22,7 @@ module.exports.signup = async (req, res, next) => {
                 return next(err);
             }
 
-            req.flash("success", "Welcome to WanderLust!");
+            req.flash("success", "Welcome to TripNest!");
 
             res.redirect("/listings");
         });
